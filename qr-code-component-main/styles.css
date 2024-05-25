@@ -1,0 +1,45 @@
+body {
+  background: var(--color-lightgrey);
+  font-family: var(--font-family);
+}
+
+.container-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: var(--color-white);
+  width: 320px;
+  height: 473px;
+  margin: 4rem;
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#text-div {
+  padding: 15px;
+}
+img {
+  width: 288px;
+  border-radius: 10px;
+}
+
+#title {
+  font-size: 22px;
+  color: var(--color-darkBlue);
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-size: var(--font-size);
+  color: var(--color-grayishBlue);
+  text-align: center;
+  padding: 10px;
+}
